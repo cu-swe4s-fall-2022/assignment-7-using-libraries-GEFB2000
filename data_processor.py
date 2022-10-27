@@ -78,6 +78,15 @@ def get_file_dimensions(file_name):
 
 def write_matrix_to_file(num_rows, num_columns, output_file):
     '''
+    Functions:
+    * write_matrix_to_file: writes random matrix to a new csv file called 'np_iris.csv'
+    
+    Parameters:
+    * num_rows - matrix dimension 1
+    * num_columns - matrix dimension 2
+    * output_file - the file that the matrix will be placed in (np_iris.csv)
+    
+    Returns: iris, which is a variable for the random matrix
     '''
     np.random.seed(7)
     iris = np.random.rand(num_rows,num_columns)

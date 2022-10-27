@@ -2,11 +2,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import argparse
 
-# Your code to create majestic plots goes in here!
-# Should I do this all in "main" so I can create functional tests? 
-# unit tests - test_utils
-# functional tests - test_search
-
 def get_args():
     '''
     Functions: 
